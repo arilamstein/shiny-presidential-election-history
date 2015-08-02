@@ -7,7 +7,7 @@ years = colnames(df_president_ts)[2:ncol(df_president_ts)]
 shinyUI(fluidPage(
 
   titlePanel("US Presidential Election Results: 1789-2012"),
-  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>.")),
+  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>. Source code <a href='https://github.com/arilamstein/shiny-presidential-election-history'>here</a>.")),
   
   sidebarLayout(
     sidebarPanel(
