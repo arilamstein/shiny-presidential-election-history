@@ -1,0 +1,9 @@
+name: shiny-presidential-election-history
+account: arilamstein
+server: shinyapps.io
+bundleId: 230863
+url:
+        https://arilamstein.shinyapps.io/shiny-presidential-election-history
+when: 1438550252.99105
+asMultiple: FALSE
+asStatic: FALSE

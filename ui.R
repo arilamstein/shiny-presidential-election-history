@@ -3,6 +3,7 @@ library(choroplethr)
 
 data("df_president_ts")
 years = colnames(df_president_ts)[2:ncol(df_president_ts)]
+years = as.numeric(years)
 
 shinyUI(fluidPage(
 
