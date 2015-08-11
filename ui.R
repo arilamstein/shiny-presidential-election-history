@@ -18,7 +18,7 @@ shinyUI(fluidPage(
     ),
 
     mainPanel(
-      plotOutput("map"),
+      imageOutput("map", width="640px", height="480px"),
       div(HTML("Legend:<br><ul><li>R = Republican
                <li>D = Democratic
                <li>DR = Democratic-Republican
