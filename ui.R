@@ -8,7 +8,7 @@ years = as.numeric(years)
 shinyUI(fluidPage(
 
   titlePanel("US Presidential Election Results: 1789-2012"),
-  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>. Source code <a href='https://github.com/arilamstein/shiny-presidential-election-history'>here</a>.")),
+  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>. Blog post <a href='http://www.arilamstein.com/blog/2015/08/13/mapping-historic-us-presidential-election-results/'>here</a>. Source code <a href='https://github.com/arilamstein/shiny-presidential-election-history'>here</a>.")),
   
   sidebarLayout(
     sidebarPanel(
